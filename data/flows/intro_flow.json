@@ -1,0 +1,26 @@
+{
+  "id": "intro_flow",
+  "title": "Erstes Kennenlernen",
+  "steps": [
+    {
+      "id": "start",
+      "coachText": "Wenn du an deinen Alltag denkst: Was beschäftigt dich im Moment am meisten?",
+      "last": false
+    },
+    {
+      "id": "impact",
+      "coachText": "Wie merkst du konkret, dass dich dieses Thema beschäftigt? Zum Beispiel in Gedanken, Gefühlen, im Körper oder Verhalten?",
+      "last": false
+    },
+    {
+      "id": "next_step",
+      "coachText": "Was wäre ein kleiner, realistischer nächster Schritt, den du in den nächsten 24 Stunden ausprobieren könntest?",
+      "last": false
+    },
+    {
+      "id": "closing",
+      "coachText": "Gibt es etwas, das du dir aus diesem Gespräch mitnehmen möchtest?",
+      "last": true
+    }
+  ]
+}
