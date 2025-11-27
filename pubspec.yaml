@@ -1,0 +1,48 @@
+name: viventis_coaching_app
+description: Data-first Coaching App Prototype for Viventis.
+publish_to: "none"
+
+version: 0.1.0+1
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+
+  # HTTP-Client für den CoachApiService (Cloudflare-Worker)
+  http: ^1.2.0
+
+  # Externer Browser-Launch für die Viventis-Webseite
+  url_launcher: ^6.3.0
+
+  # Lokale Speicherung (kann bleiben, schadet nicht)
+  shared_preferences: ^2.3.0
+
+  # Dateisystem-Zugriff – später evtl. für Exports nützlich
+  path_provider: ^2.1.0
+
+  # 🔥 HIVE-PERSISTENZ – NEU
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  # 🔥 Code-Generatoren für Hive
+  hive_generator: ^2.0.1
+  build_runner: ^2.4.6
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo/
+    - assets/icons/
+    - assets/lottie/
+    - data/
